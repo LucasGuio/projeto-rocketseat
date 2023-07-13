@@ -89,6 +89,10 @@ body * {
   animation: darkmode-button-slide-left 0.2s;
 }
 
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
 .light #switch button {
   animation: darkmode-button-slide-right 0.2s forwards;
 }
