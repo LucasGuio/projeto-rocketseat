@@ -7,11 +7,11 @@ function toggleMode() {
  */
   const img = document.querySelector("#profile img")
     if(html.classList.contains('light')) {
-      img.setAttribute("src", "./assets/avatar-light.png")
-      img.setAttribute("alt", "Foto de Mayk Brito sorrindo, usando oculos de sol e jaqueta preta com fundo degrade de roza para azul.")
+      img.setAttribute("src", "./assets/avatar.jpeg")
+      img.setAttribute("alt", "Foto de Lucas Guio em preto e branco de oculos.")
   } else {
-      img.setAttribute("src", "./assets/avatar-dark.png")
-      img.setAttribute("alt", "Foto de Mayk Brito sorrindo, usando oculos e jaqueta preta com fundo degrade de roza para azul.")
+      img.setAttribute("src", "./assets/avatar.jpeg")
+      img.setAttribute("alt", "Foto de Lucas Guio em preto e branco de oculos.")
   } 
  
 
